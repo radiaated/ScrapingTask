@@ -4,11 +4,11 @@ The project is a submission to the task given by Parsedom.
 
 The program is coded to not scrape the Promoted Jobs (first two same job posts in each pagination page) because each pagination page counts only 25 job posts.
 
-**Total scraped job data:** `3018`
-**Crawler file:** `maincrawler/maincrawler/spiders/crawling_spider.py`
-**Output file:** `maincrawler/data.csv`
+- **Total scraped job data:** `3018`
+- **Crawler file:** `maincrawler/maincrawler/spiders/crawling_spider.py`
+- **Output file:** `maincrawler/data.csv`
 
-Scrapy stats:
+- **Scrapy stats**:
 
 ```
 {'downloader/exception_count': 150,
@@ -60,9 +60,10 @@ Scrapy stats:
 
 ### Steps to run the project:
 
-- Open terminal/cmd on root directory
+- Open terminal/cmd on root project directory
 - Run
   `pip install requirements.txt`
+  to install required python dependencies
 - Run
   `cd maincrawler`
 - Run
